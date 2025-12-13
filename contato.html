@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Fale com O Monstro</title>
+    
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="page-wrapper"> 
+        
+        <header>
+            <div class="logo">O MONSTRO</div>
+            <div class="search-box">
+                <input type="text" placeholder="Que mangá você procura?">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="produtos.html" target="_blank">PRODUTOS</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="contato.html">CONTATO</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <main class="contact-section">
+            <div class="content-container">
+                
+                <h3 class="subtitle">ESTAMOS À ESPERA DA SUA MENSAGEM</h3>
+                <h1 class="title">FALE COM O MONSTRO</h1>
+                
+                <div class="contact-grid">
+                    
+                    <div class="form-area">
+                        <p>Tem dúvidas sobre um pedido, produtos ou gostaria de fazer uma parceria? Use o formulário abaixo ou nos contate diretamente.</p>
+
+                        <form action="#" method="POST" class="contact-form">
+                            
+                            <label for="nome">Seu Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                            <label for="email">Seu Email:</label>
+                            <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+
+                            <label for="assunto">Assunto:</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="" disabled selected>Escolha o Assunto</option>
+                                <option value="pedido">Dúvida sobre Pedido</option>
+                                <option value="produto">Informação sobre Produto</option>
+                                <option value="parceria">Parcerias e Colaborações</option>
+                                <option value="outro">Outros Assuntos</option>
+                            </select>
+                            
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+                            <button type="submit" class="btn-enviar">ENVIAR MENSAGEM <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="info-area">
+                        <h2>Informações de Contato</h2>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p><strong>Email Principal:</strong> contato@omonstro.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <p><strong>WhatsApp:</strong> (XX) XXXX-XXXX</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p><strong>Endereço:</strong> Rua da Curadoria, 101 - Cidade Secreta - BR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+    </div> <footer>
+        <p>© 2025 O Monstro Store - Todos os direitos reservados. | Desenvolvido para Fãs de Naoki Urasawa</p>
+    </footer>
+
+</body>
+</html>
