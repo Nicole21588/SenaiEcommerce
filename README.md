@@ -13,7 +13,7 @@ O objetivo foi criar uma interface imersiva, respeitando os conceitos de **UI/UX
 * **HTML5 Semântico:** Estruturação correta do conteúdo.
 * **CSS3 Puro:** Estilização, layout responsivo (Flexbox/Grid) e animações.
 * **Git & GitHub:** Versionamento de código.
-* [Se usou alguma biblioteca de ícones como FontAwesome, cite aqui]
+
 
  Design e Protótipo
 O layout foi planejado para transmitir a atmosfera de suspense da obra.
